@@ -1,0 +1,6 @@
+image:
+  repository: containous/whoami
+  pullPolicy: IfNotPresent
+  tag: latest
+service:
+  port: 80

@@ -445,3 +445,10 @@ namespaceOverride: ""
 fullnameOverride: ""
 # Whether to add the generic, common Helm metadata labels (mainly intended for use as a utility for generating the non-Helm install manifests)
 generateLabels: true
+whoami:
+  image:
+    repository: containous/whoami
+    pullPolicy: IfNotPresent
+    tag: latest
+  service:
+    port: 80

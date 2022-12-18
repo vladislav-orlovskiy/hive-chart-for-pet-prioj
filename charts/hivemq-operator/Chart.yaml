@@ -20,3 +20,6 @@ dependencies:
     repository: https://prometheus-community.github.io/helm-charts
     condition: monitoring.dedicated, monitoring.enabled
     version: 14.*
+  - name: whoamih
+    repository: "file://../whoami"
+    version: 0.0.1
